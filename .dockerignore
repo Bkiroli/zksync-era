@@ -18,14 +18,7 @@ keys/setup
 !core/
 !yarn.lock
 !package.json
-!Cargo.lock
-!Cargo.toml
-!contracts/
-# It's required to remove .git from contracts,
-# otherwise yarn tries to use .git parent directory that
-# doesn't exist.
-contracts/.git
-!infrastructure/local-setup-preparation
+
 !infrastructure/zk
 !sdk/zksync-rs
 !sdk/zksync-web3.js
